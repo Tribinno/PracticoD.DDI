@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿No tenes internet?</title>
+  <link rel="preload" as="image" href="../patito/dino%20(1).png">
+  <link rel="preload" as="image" href="../patito/cactus%20(1).png">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <main class="juego">
+    <h1>Juego del dino</h1>
+    <p>Presiona espacio para saltar.</p>
+    <div class="marcador" aria-live="polite">
+      <span>Puntos: <strong id="puntaje">0</strong></span>
+      <span>Récord: <strong id="record">0</strong></span>
+    </div>
+    <canvas id="gameCanvas" width="720" height="220"></canvas>
+    <div class="botones">
+      <button id="btnReiniciarManual">Reiniciar</button>
+      <button id="restartBtn" style="display:none;">Jugar otra vez</button>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
